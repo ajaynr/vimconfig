@@ -10,3 +10,6 @@
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "bundle/vim-slime"]
+	path = bundle/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git
