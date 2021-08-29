@@ -13,6 +13,3 @@
 [submodule "bundle/vim-slime"]
 	path = bundle/vim-slime
 	url = https://github.com/jpalardy/vim-slime.git
-[submodule "bundle/vim-one"]
-	path = bundle/vim-one
-	url = https://github.com/rakr/vim-one.git
