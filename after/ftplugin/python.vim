@@ -10,6 +10,7 @@ setlocal shiftwidth=4
 setlocal shiftround
 setlocal expandtab
 
+setlocal colorcolumn=80
 " Settings for vim-powerline
 " cd ~/.vim/bundle
 " git clone git://github.com/Lokaltog/vim-powerline.git
@@ -73,4 +74,10 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 " wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 "" set nofoldenable
 
+"Comment and uncomment code
+map <Leader>c ^i#<C-c>
+map <Leader>dc ^x
 
+"Send code to next pane (in tmux)
+let g:slime_target = "tmux"
+let g:slime_default_config = {"socket_name": get(split($TMUX, ","), 0), "target_pane": ":.1"} 

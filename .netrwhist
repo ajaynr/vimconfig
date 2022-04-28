@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/ajayraj/.vim'
+let g:netrw_dirhist_6='/home/ajayraj/hiwi_gnn/randomGraphs'
+let g:netrw_dirhist_5='/home/ajayraj/mlCFD/ml-cfd-lecture/exercises/cylinder2D/system'
+let g:netrw_dirhist_4='/home/ajayraj/hiwi_gnn/gnnCluster/opDyn/code/script'
+let g:netrw_dirhist_3='/home/ajayraj/studiAr/studiArCluster/ieee/script/work/seqLen320_bR4/2xDim'
 let g:netrw_dirhist_2='/home/ajayraj/.vim'
 let g:netrw_dirhist_1='/home/ajayraj/.ssh'
